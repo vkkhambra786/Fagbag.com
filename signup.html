@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width:10%;
+        }
+        input{
+            margin-top: 8%;
+        }
+        #imgsup{
+            width:100%;
+            height:1200px;
+           /* border:1px solid green;*/
+            display:flex;
+        }
+        #leftsup{
+            width:48%;
+            /* border:2px solid blue; */
+            height:900px;
+            margin:4% 5%;
+        }
+        #rightsup{
+            width:36%;
+            /* border:2px solid red; */
+            height:600px;
+            margin-top:4%;
+            /* margin-left: 2%;;  */
+        }
+        #leftsup>#topimg{
+          width:40%;
+          /* border:2px solid brown; */
+          height:70px;
+          margin:auto;
+          margin-top:6%;
+        }
+        #topimg>img{
+            width:100%;
+            height:100%;
+        }
+        #contleft{
+            width:47%;
+            height:5%;
+            /* border:1px solid black; */
+            display:flex;
+            margin: -1% auto;
+        }
+        #contleft>p{
+            margin-left:2%;
+        }
+        #firstcont{
+            width:80%;
+            margin:auto;
+            height:5%;
+            /* border:1px solid green; */
+            margin-top: 3%;;
+            display:flex;
+        }
+        .pacc{
+            margin-left: 34%;;
+        }
+        #form{
+            width:80%;
+            /* border:2px solid rgb(128, 113, 0); */
+            height:600px;
+            margin: auto;;
+            margin-top: 4%;;
+        }
+        #myForm{
+            width:100%;
+        }
+        #email{
+            width:96%;
+           
+            padding:10px;
+            border-radius: 5px;
+            margin-top: 0;
+        }
+        #check{
+             width:100%;
+             /* border:1px solid burlywood; */
+             height:30px;
+             margin-top: 0;;
+             border-radius: 5px;
+             
+            }
+            #check>p{
+                margin-left: 25px;
+                margin-top: -17px;
+            }
+            #check >#scales{
+                margin-top: 11px;
+            }
+            .label{
+                margin-top: -12px;;
+                font-size: 24px;;
+                margin-bottom: -10px;
+            }
+            #name{
+                width:43%;
+                margin:1%;
+                padding:10px;
+                margin-top: 0;;
+                border-radius: 5px;
+            }
+            #lastname{
+                width:44%;
+                padding:10px;
+                margin-top: 0;
+                border-radius: 5px;
+
+            }
+            #address{
+                width:95%;
+                padding:10px;
+                margin-top: 1px;
+                border-radius: 6px;
+            }
+            #apart{
+                width:95%;
+                padding:10px;
+                border-radius: 5px;
+                margin-top: 5px;
+            }
+            #city{
+                width:95%;
+                padding:10px;
+                border-radius: 5px;
+                margin-top: 5px;
+            }
+            #state{
+                width:31%;
+                margin-top: 1%;
+                border-radius: 6px;
+                padding: 10px;
+            }
+            #country{
+                width:31%;
+                margin-top: 1%;
+                border-radius: 6px;
+                padding: 10px;
+            }
+            #pincode{
+                width:31%;
+                margin-top: 1%;
+                padding: 10px;
+                border-radius: 6px;
+            }
+            #phone{
+                width:95%;
+                margin-top: 1%;
+                padding: 10px;
+                border-radius: 6px;
+            }
+            #password{
+                width:95%;
+                margin-top: 1%;
+                padding: 10px;
+                border-radius: 6px;
+            }
+            #lastt{
+                display:flex;
+            }
+            #pretn{
+                
+                margin-left: -2%;
+            }
+            #submitt{
+                 margin-left: 40%;;
+                 margin-top: 2%;;
+                 width:30%;
+                 border-radius: 5px;
+            }
+            .up{
+                width:80%;
+                /* border:1px solid green; */
+                height:13%;
+                margin: 2% auto;
+                margin-top: 10%;;
+                display:flex;
+
+            }
+            .up >#img{
+                width:60px;
+                height:50px;
+               
+                margin:3% 2%;
+                border-radius: 8px;;
+
+            }
+            .up>#img >img{
+                width:100%;
+                height:100%;
+            }
+            .up >#cont{
+                width:50%;
+                height:70%;
+              /*  border:1px solid blue;*/
+                margin:3% 1%;
+            }
+            #cont >p{
+                margin-top: 0;
+            }
+            .up >#priceu{
+                width:21%;
+                height:40%;
+               
+                margin:7% 4%; 
+            }
+            #priceu>p{
+                margin-top: 0;
+                font-size: 15px;;
+            }
+            .hr{
+                width:80%;
+                margin:auto;
+            }
+            .dist{
+                width:80%;
+                height:70px;
+                
+                margin: 4% auto;
+                display: flex;
+
+            }
+            #app{
+                    width:100%;;
+                    margin-left: 40px;;
+                    height:40px;
+                    padding:10px;
+                    background-color: black;
+                    color: white;
+                    border-radius: 7px;
+                    margin-top: 5px;;
+            }
+            #code >input{
+                width:100%;
+                padding: 10px;
+                margin-top: 6px;;
+                border-radius: 5px;;
+            }
+            .pr1{
+                margin-left: 200%;;
+            }
+            .db{
+                display: flex;
+            }
+            #ne{
+                display: flex;
+                height:30px;
+                width:80%;
+                margin: auto;
+                
+            }
+            #pr3{
+                margin-left: 60%;
+            }
+                
+    </style>
+</head>
+<body>
+
+    <div id="imgsup">
+    <div id="leftsup">
+
+        <div id="topimg">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-FINAL.png?9922" alt="">
+        </div>
+
+        <div id="contleft">
+                    <p>Cart ></p>
+                    <p>Information > </p>
+                    <p>Shipping  ></p>
+                    <p>Payment </p>
+        </div>
+               
+
+       
+        <div id="firstcont">
+            <p>Contact Information</p>
+            <p class="pacc">Alreday hvae an accout?</p>
+            <p>Log in</p>
+        </div>
+
+
+        <div id="form">
+
+
+
+            <form onsubmit="signup(event)" id="myForm" action="">
+                <input type="text" placeholder="Type Your Email Here" id="email"   />
+           <div id="check"> <input type="checkbox" id="scales" name="scales"><p>Keep me up to date on news and offers</p> </div>
+            <div>.</div>
+           <label class="label">Shipping address</label>
+           <div>.</div>
+                <input type="text" placeholder="Name" id="name">
+                <input type="text" placeholder="Last Name" id="lastname">
+                <input type="text" name="address" id="address" placeholder="Address">
+
+                <input placeholder="Apartment, suite, etc. (optional)"   id="apart">
+                <input type="text" placeholder="City" id="city">
+                <!-- <label for="cars">Choose a car:</label> -->
+                <select name="Country" id="country" placeholder="Country">
+                    <option value="Country">Country</option>
+                  <option value="volvo">India</option>
+                  <option value="saab">USA</option>
+                  <option value="opel">UK</option>
+                  <option value="audi">Russia</option>
+                </select>
+               
+               <select name="State" id="state" placeholder="state">
+                   <option value="State">state</option>
+                <option value="volvo">Haryana</option>
+                <option value="saab">Punjab</option>
+                <option value="opel">Delhi</option>
+                <option value="audi">M.P</option>
+                <option value="opel">Delhi</option>
+                <option value="audi">U.P</option>
+                <option value="opel">Goa</option>
+                <option value="audi">Kerala</option>
+              </select>
+
+                  <input type="" name="pin" pattern="[0-9]{4}" maxlength="6" placeholder="Pincode" id="pincode">
+                  <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter your Number ">
+
+       <div id="check"> <input type="checkbox" id="scales" name="scales"><p>Save this information for next time</p> </div>
+       
+                <input type="password" placeholder="password" id="password" />
+               
+                <div id="lastt">    
+                   <a href="beforecart.html"> <p class="pretn"> < Return to Shooping</p></a>
+                    <input type="submit" placeholder="Continue to Shooping" id="submitt" /> 
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <div id="rightsup">
+  
+        <div class="up">
+                  <div id="img">
+                      <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-4-5_2faddde5-aa4f-4393-a694-5596034b6fed_compact.png?v=1631337975" alt="">
+                  </div>
+                <div id="cont">
+                    <p>The She-9-igans September Fab Bag
+                        1 Month</p>
+                </div>
+                <div id="priceu">
+                    <p>Rs. 599.00</p>
+                </div>
+                 
+                
+        </div>
+        <hr class="hr">
+
+        <div class="dist">
+            <div id="code">
+                <input type="text" placeholder="Discount code">
+            </div>
+            <div>
+                <button id="app">Apply </button>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="dist">
+          <div class="db">
+            <p id="st">SubTotal</p>
+            <p class="pr1">599.00</p>
+          </div>
+          
+    
+        </div>
+        <hr class="hr">
+          <div id="ne">
+              <p id="pr4"><b>Total</b></p>
+              <p id="pr3">599.00</p>
+          </div>
+    </div>
+    </div>
+    <!-- <h1>Sign Up</h1> -->
+    <!-- <form onsubmit="signup(event)" id="myForm" action="">
+        <input type="text" placeholder="Name" id="name">
+        <input type="text" placeholder="email" id="email" />
+        <input type="password" placeholder="password" id="password" />
+        <input type="submit" />
+    </form> -->
+</body>
+<script>
+
+
+   function signup(e){
+
+    e.preventDefault();
+       let myForm = document.getElementById("myForm");
+      // console.log("myForm" ,myForm);
+
+       let name = myForm.name.value;
+       let email =myForm.email.value;
+       let password =myForm.password.value;
+       let lastname =myForm.lastname.value;
+       let pincode =myForm.pincode.value;
+       let phone = myForm.phone.value;
+      // console.log("data",name,email,password)
+
+      if(localStorage.getItem('users') ===null){
+
+
+        localStorage.setItem("users",JSON.stringify([]))
+      }
+
+
+
+      let user={
+          name,
+          email,
+          password,
+      };
+
+      let arr = JSON.parse(localStorage.getItem("users"));
+
+      arr.push(user);
+
+      localStorage.setItem("users", JSON.stringify(arr));
+   }
+</script>
+</html>

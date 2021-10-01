@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Before cart</h1>
+    <div id="main"></div>
+
+    <br><br>
+   
+    <a href="cart.html">  <button>ENTER TO CART PAGE</button></a>
+</body>
+<script>
+
+
+let data = [
+{
+            name:"The She-9-Igans September Fab Bag 1",
+            price: 599,
+            img:"https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-4-5_2faddde5-aa4f-4393-a694-5596034b6fed.png?v=1631337975",
+
+        },
+
+
+        {
+            name:"The She-9-Igans October Fab Bag 2",
+            price: 1199,
+            img:" https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Bag-Reveal.png?v=1633025876",
+
+        },
+
+
+        {
+            name:"The She-9-Igans November Fab Bag 3",
+            price: 3299,
+            img:" https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal--4.png?v=1623236695",
+
+        },
+
+        {
+            name:"The She-9-Igans December Fab Bag 4",
+            price: 4999,
+            img:"https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-4-5_2faddde5-aa4f-4393-a694-5596034b6fed.png?v=1631337975",
+
+        }
+]
+
+
+data.forEach(function(event){
+
+
+    let start = document.getElementById("main");
+
+let div1 = document.createElement("div");
+
+div1.append(event.name);
+div1.style.color="red;"
+
+
+let div2 = document.createElement("div");
+
+div2.append(event.price);
+
+
+let img1 = document.createElement("img");
+
+  img1.src= event.img;
+
+img1.style.width="250px";
+img1.style.margin="20px"
+
+let btn =document.createElement("button");
+btn.textContent="ADD TO CART ";
+ btn.style.height="50px"
+ btn.style.marginTop="120px"
+ btn.style.width="100%"
+ btn.style.marginLeft="-70px"
+ btn.style.background="black"
+ btn.style.color="white";
+
+ btn.onclick= function(){
+     addtocart(event)
+ }
+start.append(img1,div1,div2,btn);
+
+})
+
+if(localStorage.getItem("cart")=== null){
+    localStorage.setItem("cart",JSON.stringify([]))
+}
+
+function addtocart(e){
+
+    let add = JSON.parse(localStorage.getItem("cart"));
+
+    add.push(e);
+
+    localStorage.setItem("cart",JSON.stringify(add));
+
+
+
+}
+
+
+</script>
+
+</html>

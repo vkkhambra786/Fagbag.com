@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+        }
+        a>button{
+            background-color: black;
+            color: white;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cart PAGE </h1>
+    
+  
+    
+<div id="main"></div><br><br>
+
+<a href="signup.html"><button>ADDRESS DETAILS</button></a>
+</body>
+
+<script>
+    
+    let start = document.getElementById("main");
+    let arr = JSON.parse(localStorage.getItem("cart"))
+   console.log(arr)
+
+  arr.forEach(function(event){
+
+
+
+
+let div1 = document.createElement("div");
+
+div1.append(event.name);
+
+
+let div2 = document.createElement("div");
+
+div2.append(event.price);
+
+
+let img1 = document.createElement("img");
+
+img1.src= event.img;
+
+img1.style.width="250px";
+
+// let btn =document.createElement("button");
+// btn.textContent="ADD TO CART ";
+
+// btn.onclick= function(){
+//  addtocart(event)
+// }
+start.append(img1,div1,div2);
+
+})
+
+</script>
+</html>

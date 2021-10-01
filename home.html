@@ -1,0 +1,750 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet"
+     href="https://fonts.googleapis.com/css?family=Tangerine">
+     <title>FAB BAG</title>
+     <style>
+         #navbar{
+             height:80px;
+             /* border:1px solid black; */
+             
+         }
+         #image0{
+              text-align: center; 
+             margin-top: -41px;;
+         }
+         #navbar>#image0{
+             /* border:1px solid rgb(4, 0, 255); */
+             width:20%;;
+             text-align: center;
+             margin-left: 40%;;
+             height: 70%;;
+             margin-top: -52px;;
+         }
+         #navbar >#image0 >#image01{
+              width:100%; 
+             text-align: center; 
+             height:90%;
+              
+             /* margin-top: -25px; */
+         }
+         #navbar >#subscribe{
+             text-align: left;
+             padding: 20px;
+             color: #D4AF37;
+             margin-top: 8px;;
+         }
+         #left{
+             width:100%;
+             text-align: right;
+
+         }
+         img{
+             width:100%;
+             height: 500px;;
+         }
+         #right{
+             width: 17%;;
+             height: 40px;;
+             /* border:1px solid blue; */
+              margin-left: 77%;
+              margin-top:-50px;
+              display: flex;
+               
+         }
+         #right button{
+             margin:10px 6px;
+         }
+         #myslideshow{
+             /* border:3px solid black; */
+             width:100%;
+             margin-top: 2%;;
+         }
+         #firsth1{
+             text-align: center;
+             margin-top: 2%;;
+         }
+         #line{
+             /* border:2px solid black; */
+             width:26%;
+             margin-left:37%;
+         }
+        #boxes{
+             width:100%;
+               /* border:2px solid red; */
+               display:flex;
+         }
+       
+         #boxes >div {
+             width:24%;
+             /* border:2px solid green; */
+             margin:1%;
+             height:40%;
+         }
+         #boxes>div>img{
+             width:100%;
+             height:50%;
+             padding:1%;
+         }
+         #boxes>div>a>img{
+             width:100%;
+             height:50%;
+             padding:1%;
+         }
+         .imgborder{
+             /* border:2px solid #D4AF37; */
+             border-radius: 15%;;
+         }
+         #boxes>div>div{
+                 text-align: center;
+                 padding:10px;
+         }
+         .p{
+             text-align: center;
+             font-size: 32px;
+         }
+         #line1{
+            border:1px solid  	#D4AF37;
+             width:18%;
+             margin-left:41%;
+             margin-top: -41px;;
+              
+         }
+         #subboxes{
+             width:80%;
+             
+             display:flex;
+              margin-left: 10%;;
+              text-align: center;
+               
+         }
+           #subboxes >.subbox{
+               width:23%;
+               height:513px;
+                border:1px solid #BDBDBD; 
+               margin:2%;
+              
+
+           }
+           .month{
+               font-size: 20px;;
+           }
+           .submonth{
+               font-size: 16px;;
+               margin-top: 0px;;
+           }
+           .subline{
+                border:1px solid #BDBDBD; 
+               width:100%;
+           }
+           .sub1{
+               margin: 25px 8px;
+           }
+           .paymnt{
+               color:#cca31d;
+               font-size: 12px;;
+               font-family:   'Arial Narrow Bold', 
+           }
+           .price{
+            font-size: 20px;;
+            margin-top: 0px;;
+           }
+           .butbox{
+               width:100%;
+               height:65px;
+               /* border:1px solid green; */
+               background-color: #FBBF24;;
+               margin-top: 90%;;
+
+           }
+           .butbox1{
+               width:100%;
+               height:65px;
+             /*  border:1px solid green;*/
+               background-color: #FBBF24;;
+               margin-top: 1%;;
+
+           }
+           .butbox2{
+               width:100%;
+               height:65px;
+               /* border:1px solid green; */
+               background-color: #FBBF24;;
+               margin-top: 9%;;
+
+           }
+           #btn{
+               color:white;
+               width:80%;
+               padding:5px;
+               margin-top:8%;;
+               background-color: #FBBF24;;
+               border-color: white;
+           }
+           #sub2{
+               width: 25%;
+               height: 100px;;
+               /* border:1px solid green; */
+               margin-left:20%;
+               margin-top: 8%;
+               font-size: 22px;;
+
+
+           }
+           #sub11{
+               width:90%;
+              /* border:1px solid blue;*/
+               display: flex;
+               margin: 1%;;
+           }
+           #sub11>.sub11img>img{
+               width:98%;
+               height:94%;
+               margin-top: 4%;;
+           }
+            .sub11cont{
+                margin: 1px;
+                padding: 13px;;
+            }
+            #line2{
+                border:1px solid  	#D4AF37;
+             width:20%;
+             margin-left: 40%;
+             margin-top: -2%;;
+            }
+             #prebag{
+                 width:80%;
+                 /* border:2px solid gray; */
+                 margin:auto;
+                 margin-top: 5%;
+                 height: 250px;
+                 display:flex;
+             }
+             .prebox{
+                 width:23%;
+                 height:70%;;
+                 /* border:1px solid red; */
+                 margin:1%;
+
+             }
+             .prebox>a>img{
+                 width:100%;
+                 height:100%;
+             }
+             .prebox>img{
+                 width:100%;
+                 height:100%;
+             }
+             .precont{
+                 margin-top: 10px;;
+                 text-align: center;
+             }
+             .preprice{
+                 color:gray;
+                 text-align: center;
+                 margin-top: 4px;;
+             }
+             #beline{
+                 width:80%;
+                 margin:5px auto;
+                 margin-bottom: 4%;;
+             }
+             #imageslid{
+                 width:100%;
+                 height:200px;
+                 /* border:1px solid green; */
+                 display:flex;
+                 background-color: #D4AF37;;
+             }
+             /* #imageslid>div{
+                 width:50px;
+                 height:50px;
+             } */
+             .slidimg{
+                  width:120px;
+                   height: 60px;
+                   /* border:2px solid black; */
+                   margin-top:5%;
+                   margin-left: 30px;
+                   border-radius: 9px;;
+             }
+             .slidimg>img{
+                 width:100%;
+                 height:100%;
+                 border-radius: 8px;;
+             }
+             #footer{
+                 width:100%;
+                 height:450px;
+                 /* border:1px solid teal; */
+                 margin-top: 7%;;
+                 display: flex;
+             }
+             #footer >.fo1{
+                   width:25%;
+                   height:400px;
+                   margin-left: 8%;
+                   /* border:1px solid red; */
+             }
+             .fote{
+                 margin-top: 14px;;
+                 color:#757575;
+                 font-size: 20px;;
+             }
+             .fo1>#email{
+               padding:5px;
+               border-radius: 5px;;
+               margin-top: 5%;;
+             }
+             #fobtn{
+                 padding:4px;
+                 background-color: #D4AF37;
+                 color: white;
+                 border:none;
+                 width:30%;
+                 border-radius: 7px;;
+             }
+             .fo11{
+                color:#757575;
+                font-size: 20px;;
+             }
+             #copy{
+                 text-align: center;
+                 font-size: 20px;
+             }
+     </style>
+ </head>
+ <body>
+    <div id="main">
+        <div id="navbar">
+            <div id="subscribe">SUBSCRIBE NOW</div>
+            <div id="image0">
+                
+                
+                <img id="image01" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289" width="30px">
+           
+            
+            </div>
+            <div id="right">
+                
+                <div class="but1">
+                <a href="Accont.html"><button>Create Account</button></a>
+                </div>
+                <div class="but1">
+                  <a href="signin.html">  <button>Sign In</button></a>
+                </div>
+            </div>
+             
+
+            <br><br>
+            <hr>
+
+            <!-- <div id="right">
+                
+                <div class="but1">
+                <a href="signup.html"><button>Sign Up</button></a>
+                </div>
+                <div class="but1">
+                  <a href="signin.html">  <button>Sign In</button></a>
+                </div>
+            </div>
+             -->
+
+
+        </div>
+
+        <div id="myslideshow"></div>
+
+        <h1 id="firsth1">WHAT'S IN THE BAG</h1>
+        <div id="line"></div>
+
+
+        <br><br>
+        <hr>
+
+           <div id="boxes">
+               <div>
+                     
+                 <a href="product.html">                        <img class="imgborder" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-Reveal-1_c366cf6e-8a54-498d-890e-7febc607d9b3_2048x.png?v=1630819288" width="230px" />
+                    
+                 </a>
+                        <div>PLUM E-LUMINENCE MEGA HYDRATION MINI KIT</div>
+               </div>
+               <div>
+                   
+                    <img class="imgborder" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-Reveal_2048x.gif?v=1630646715"  width="230px">
+                   
+                    <div>SUGAR CONTOUR DE FORCE FACE PALETTE OR SUGAR CONTOUR DE FORCE HIGHLETR PALETE OF YOUR CHOICE</div>
+               </div>
+               <div>
+                  
+                    <img  class="imgborder" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-Reveal-2_d1f80928-53a9-44ec-846e-d1198251fe7e_2048x.png?v=1630992302" width="230px">
+                    <div>VOTER UNDER EYE CREAM</div>
+               </div>
+               <div>
+                   <img  class="imgborder" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-Reveal-3_9af636bd-cd9c-443a-b74c-4943435fbf92_2048x.png?v=1631165421" width="230px">
+                   <div>SEBAMED MOISTURIZING CREAM</div>
+              
+              
+                </div>
+
+
+                
+           </div>
+           <br><br>
+           <hr>
+
+           <p class="p">SUBSCRIPTION</p>
+           <div>.</div>
+           <div id="line1"></div>
+
+          <br><br><hr>
+             <!-- start sboboxes of subscrition check thier ratae -->
+        <div id="subboxes">
+               
+            <div class="subbox">
+                    <div class="sub1">
+                          <div class="month"><b>1 MONTH</b></div>
+                           <p class="submonth">SUBSCRIPTION</p>
+                    </div>
+                    
+                           <div class="subline"></div>
+
+                    <div class="sub1">
+                        <div class="month"><b>Rs.599.00</b></div>
+                        <p class="submonth">/ month</p>
+                    </div>
+                        
+                          <div class="subline"></div>
+
+
+                    <div class="sub1">
+                            <div class="paymnt">ONE TIME PAYMENT</div>
+                            <p class="price"><b>Rs.599.00</b></p>
+                     </div>
+                            
+                            <!---- <div class="subline"></div>-->
+
+
+                              <div class="butbox">
+                                  <a href="product.html"> <button id="btn" onclick="but1()">ADD TO CART</button></a>
+                              </div>
+            </div>
+
+                  
+            <div class="subbox">
+                     <div class="sub1">
+                        <div class="month"><b>3 MONTH</b></div>
+                           <p class="submonth">SUBSCRIPTION</p>
+                     </div>
+                
+                            <div class="subline"></div>
+
+                    <div class="sub1">
+                           <div class="month"><b>Rs.533.00</b></div>
+                            <p class="submonth">/ month</p>
+                     </div>
+                    
+                      <div class="subline"></div>
+
+
+                    <div class="sub1">
+                             <div class="paymnt">ONE TIME PAYMENT(11% OFF)</div>
+                             <p class="price"><b>Rs.1,599.00 </b> <del> Rs.1,799</del></p>
+                    </div>
+                        
+                          <!--<div class="subline"></div> -->
+
+
+                          <div class="butbox">
+                            <a href="beforecart.html"><button id="btn" onclick="but2()">ADD TO CART</button></a>
+                       </div>
+             </div>
+
+
+
+            <div class="subbox">   
+                    <div class="sub1">
+                               <div class="month"><b>6 MONTH</b></div>
+                              <p class="submonth">SUBSCRIPTION</p>
+                     </div>
+            
+                             <div class="subline"></div>
+
+                    <div class="sub1">
+                                  <div class="month"><b>Rs.483.00</b></div>
+                                  <p class="submonth">/ month</p>
+                     </div>
+                
+                                   <div class="subline"></div>
+
+
+                     <div class="sub1">
+                                      <div class="paymnt">ONE TIME PAYMENT(19% OFF)</div>
+                                         <p class="price"><b>Rs.2,899.00</b> <del> Rs.3,594</del></p>
+                    </div>
+                    
+                             <div class="subline"></div>
+
+
+
+                            <div id="sub11">
+
+                                <div class="sub11img">
+                                 <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/GWP_Creative_1_260f48bb-6f40-4ff5-b724-2282930be6da_480x480.png?v=1619068709" width="200px;">
+                           
+                                 </div>
+                                
+                                </div>
+
+                                <div class ="sub11cont">
+                                    Free SUGAR Contour De Force Mini Highlighter - 02 Gold Glory worth 399/-!*
+                                  </div>
+
+
+                                  <div class="butbox1">
+                                    <button id="btn" onclick="but3()">ADD TO CART</button>
+                               </div>
+            </div>
+
+
+
+
+            <div class="subbox">
+                          <div class="sub1">
+                                    <div class="month"><b>12 MONTH</b></div>
+                                        <p class="submonth">SUBSCRIPTION</p>
+                          </div>
+        
+                                  <div class="subline"></div>
+
+                             <div class="sub1">
+                                          <div class="month"><b>Rs.599.00</b></div>
+                                             <p class="submonth">/ month</p>
+                                 </div>
+            
+                                      <div class="subline"></div>
+
+
+                             <div class="sub1">
+                                     <div class="paymnt">ONE TIME PAYMENT(30% OFF)</div>
+                                         <p class="price"><b>Rs.4999.00</b>  <del> Rs.7,188</del></p>
+                             </div>
+                
+                                   <div class="subline"></div>
+
+
+                                   <div id="sub11">
+
+                                    <div class="sub11img">
+                                     <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/GWP_Creative_a9c21752-6336-419c-b0d0-06f166326927_480x480.png?v=1618310523" width="200px;">
+                               
+                                     </div>
+                                    
+                                    </div>
+    
+                                    <div class ="sub11cont">
+                                        Free C2P Pro Epic Matte Lip Ink Set worth 1199/-!*
+                                      </div>
+
+
+                                      <div class="butbox2">
+                                        <button id="btn" onclick="but4()">ADD TO CART</button>
+                                   </div>
+            </div>
+
+
+
+            <!-- <div class="subbox"></div>
+            <div class="subbox"></div>
+            <div class="subbox"></div> -->
+        </div>
+
+
+       <h1 class="p" >PREVIOUS BAGS</h1>
+       <div>.</div>
+           <div id="line2"></div>
+
+         
+     
+
+           <div id="prebag">
+             
+            <div class="prebox"> 
+        <a href="product.html"> <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare--Reveal-Bous-Product.gif?v=1629009087" alt=""></a>
+                 <div class="precont">Aug'21 The Lash &Line Fab Bag</div>
+                 <div class="preprice"><del>Rs. 1,797.00 </del> from Rs. 599.00</div>
+            </div>
+            <div class="prebox">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-4.png?v=1625976508" alt="">
+            <div class="precont">Aug'21 The Lash &Line Fab Bag</div>
+            <div class="preprice"><del>Rs. 1,797.00 </del> from Rs. 599.00</div>
+
+            </div>
+            <div class="prebox">
+              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal--4.png?v=1623236695" alt="">
+              <div class="precont">Aug'21 The Lash &Line Fab Bag</div>
+              <div class="preprice"><del>Rs. 1,797.00 </del> from Rs. 599.00</div>
+            </div>
+            <div class="prebox">
+                  <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-3.png?v=1620728272" alt="">
+                  <div class="precont">Aug'21 The Lash &Line Fab Bag</div>
+                  <div class="preprice"><del>Rs. 1,797.00  </del>   from Rs. 599.00</div>
+            </div>
+           </div>
+              <hr>
+
+              <div id="beline">Error validating access token: 
+                  The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.</div>
+                  <hr>
+             
+
+                  <div id="imageslid">
+                          <div class="slidimg">
+                            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="">
+                          </div>
+
+                          <div class="slidimg">
+                              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="">
+                          </div>
+
+                          <div class="slidimg">
+                                   <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="">
+                          </div>
+
+                          <div class="slidimg">
+                              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="">
+                          </div>
+                          <div class="slidimg">
+                              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="">
+                          </div>
+                          <div class="slidimg">
+                               <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="">
+                          </div>
+
+                          <div class="slidimg">
+                              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="">
+                          </div>
+
+                          <div class="slidimg">
+                              <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="">
+                          </div>
+                  </div>
+
+
+
+                  <div id="footer">
+                          
+
+                    <div class="fo1">
+                      <h3>INFORMATION</h3>
+
+                      <div class="fo11">About Us</div>
+                       <div class="fote">Associated Brands</div>
+                       <div class="fote">FAQ</div>
+                       <div class="fote">Collaborate with Fab Bag</div>
+                       <div class="fote">Contact Us</div>
+                       <div class="fote">Returns & Refunds</div>
+                       <div class="fote">Term & Conditions</div>
+                       <div class="fote">Privacy Policy</div>
+
+
+                    </div>
+                    <div class="fo1">
+                        <h3>CUSTOMER CARE</h3>
+                        <div class="fo11">Call : 022-6805-6010</div>
+                        <div class="fo11">(Monday to Friday : 9 AM - 7 PM).</div>
+                        <div class="fote">Mail : crew@fabbag.com</div>
+                    </div>
+
+                    <div class="fo1">
+                        <h3>NEWSLETTER</h3>
+                        <div class="fo11">Signup for the latest offers, updates and news</div>
+                        <input type="text" id="email" placeholder="Your email address">
+                        <button id="fobtn">Submit</button>
+                        <div class="fote">Don’t worry we don’t spam</div>
+                    </div>
+
+                   
+                  </div>
+
+                  <div id="copy">
+                    Copyright © 2021 fabbag.com All rights reserved
+                </div>
+                  
+    </div>
+ </body>
+
+ <script>
+     let images =[
+         "  https://scontent-del1-1.xx.fbcdn.net/v/t1.6435-9/241729344_4108637265930551_5063369489837803700_n.png?_nc_cat=107&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=kx31afcshRgAX8YBEEn&_nc_ht=scontent-del1-1.xx&oh=a1ed27b2c57d52eebab9a9a7ccdceb54&oe=6174F43D",
+         "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_s-page---Reveal.gif?v=1591190792",
+         " http://4.bp.blogspot.com/-UcWS7WMJPmU/VpoYVQvYVDI/AAAAAAAARsg/HQ5MYrC9Q5Y/s640/January%2BFab%2BBag%2BReview.JPG",
+         "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_s-page-Skincare-Reveal-3rd.gif?v=1599636684",
+         " https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare-Reveal-4_large.png?v=1625976508"
+         
+     ];
+     
+     let container = document.getElementById("myslideshow");
+
+    function startslideshow(){
+ // images.forEach(function(image){
+                                let counter =0;
+                       let img = document.createElement("img");
+                            img.src= images[0];
+                              container.append(img);
+                             counter =counter+1;
+
+
+              setInterval(function(){
+                  
+                container.innerHTML =null;
+                if(counter === images.length){
+
+                    counter=0;
+                }
+                let img = document.createElement("img");
+                             img.src= images[counter];
+                             container.append(img);
+                             counter =counter+1;
+                             console.log(counter)
+
+              },3000)
+
+   
+         
+    // })
+    }
+
+    startslideshow();
+
+
+    function but1(){
+        // alert("1st button is working")
+    }
+    
+    function but2(){
+        alert("second button is working")
+    }
+    
+    function but3(){
+        alert("3rd button is working")
+    }
+    
+    function but4(){
+        alert("Fourth button is working")
+    }
+
+
+   
+
+
+
+ </script>
+
+ 
+ </html>
