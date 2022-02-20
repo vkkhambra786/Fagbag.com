@@ -2,7 +2,7 @@
 # Tanishq-Web-Clone
 
 ![tanishqlogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq-KOTR0dSN8Jp9ddg5bdcrQNOi8guarOIA&usqp=CAU&width=400px)
-
+//https://user-images.githubusercontent.com/87421824/135969419-0d9550f0-56c8-43ca-8630-9321320166e8.jpg
 
 
 
@@ -10,27 +10,26 @@
 
 ### About Tanishq:
 
-> Tanishq is a brand of Jewellery retail stores in India. The brand is the property of Titan Company, which is back by Tata Group and TIDCO. The Stores are located all over India. Tanishq has emerged as India’s fastest growing jewellery brand and is a name which signifies superior craftsmanship, exclusive designs and superlative product quality. 
+> Fabbag is online Cosmetics website & India's largest beauty subscription service. Receive amazing sample/full-size products at least twice the price you pay in a delightful bag every month. 
 
 # About this project ⏬
 
 ## Run Locally :-
-``git clone https://github.com/MOHAMMADM-ASRAF/Tanishq-Web-Clone.git``
+``git clone  https://github.com/vkkhambra786/Fagbag.com.git``
 
 ## Go to project directory:- 
-`cd Tanishq-Web-Clone`
+`cd FabBag-Web-Clone`
 
-## Presentation Video :-
-[Demo of project](https://drive.google.com/file/d/1DlT71CxGs9CIsoeNZWU1pgOh03OZI2MY/view?usp=sharing)
+//## Presentation Video :-
+//[Demo of project](https://drive.google.com/file/d/1DlT71CxGs9CIsoeNZWU1pgOh03OZI2MY/view?usp=sharing)
 
 ## Deployed Demo link :-
-[Demo of project](https://tanishq-web-clone.netlify.app/)
+[Demo of project](https://fagbag-com.vercel.app/)
 
 ## Contributers :- 
-- #### [Mahboob](https://www.linkedin.com/in/mahboob-asraf/)
-- #### [Yashvant](https://www.linkedin.com/in/yashvant-kumar-gogineni-799828207/)
-- #### [vikas](https://www.linkedin.com/in/vikas-khambra-44b40b17b/)
-- #### [Balkishan](https://www.linkedin.com/in/balkishanpal/)
+ 
+- #### [vikas Khambra](https://www.linkedin.com/in/vikas-khambra-44b40b17b/)
+ 
 
 ## Tech Stack :- 
 
@@ -68,5 +67,5 @@
 ## Screenshots :- 
 ![frontpage](https://user-images.githubusercontent.com/87421824/135976908-fd35150c-3215-48f7-b21d-b402e36371ec.png)
 
-## For more details :- 
-[Blog]( https://hashnode.com/post/cloning-of-e-commerce-website-tanishqcoin-cksxeehp10myukxs1eabcaqcc)
+//## For more details :- 
+//[Blog]( https://hashnode.com/post/cloning-of-e-commerce-website-tanishqcoin-cksxeehp10myukxs1eabcaqcc)
