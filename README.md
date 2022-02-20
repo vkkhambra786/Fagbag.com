@@ -2,8 +2,7 @@
 # Tanishq-Web-Clone
 
 ![tanishqlogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq-KOTR0dSN8Jp9ddg5bdcrQNOi8guarOIA&usqp=CAU&width=400px)
-//https://user-images.githubusercontent.com/87421824/135969419-0d9550f0-56c8-43ca-8630-9321320166e8.jpg
-
+<!-- //https://user-images.githubusercontent.com/87421824/135969419-0d9550f0-56c8-43ca-8630-9321320166e8.jpg -->
 
 
 # Welcome :wave:
