@@ -7,7 +7,7 @@
 
 # Welcome :wave:
 
-### About Tanishq:
+### About FabBag:
 
 > Fabbag is online Cosmetics website & India's largest beauty subscription service. Receive amazing sample/full-size products at least twice the price you pay in a delightful bag every month. 
 
@@ -18,9 +18,7 @@
 
 ## Go to project directory:- 
 `cd FabBag-Web-Clone`
-
-//## Presentation Video :-
-//[Demo of project](https://drive.google.com/file/d/1DlT71CxGs9CIsoeNZWU1pgOh03OZI2MY/view?usp=sharing)
+ 
 
 ## Deployed Demo link :-
 [Demo of project](https://fagbag-com.vercel.app/)
@@ -64,7 +62,5 @@
 - After payment has completed successfully then he will be redirected to home page.
 
 ## Screenshots :- 
-![frontpage](https://user-images.githubusercontent.com/87421824/135976908-fd35150c-3215-48f7-b21d-b402e36371ec.png)
-
-//## For more details :- 
-//[Blog]( https://hashnode.com/post/cloning-of-e-commerce-website-tanishqcoin-cksxeehp10myukxs1eabcaqcc)
+![frontpage](https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-2.gif?v=1644395072)
+ 
