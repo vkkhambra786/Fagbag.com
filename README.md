@@ -1,7 +1,7 @@
 # Fagbag.com
 # Tanishq-Web-Clone
 
-![tanishqlogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq-KOTR0dSN8Jp9ddg5bdcrQNOi8guarOIA&usqp=CAU)
+![tanishqlogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq-KOTR0dSN8Jp9ddg5bdcrQNOi8guarOIA&usqp=CAU&width=400px)
 
 
 
